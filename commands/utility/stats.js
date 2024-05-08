@@ -55,7 +55,7 @@ setInterval(async () => {
         }
 
         const newEmbed = new EmbedBuilder()
-            .setTitle('CyklonSMP Server Status')
+            .setTitle(':cyclone:CyklonSMP Server Status')
             .setDescription("Server is currently: `" + `${serverStatus}` + "`")
             .setColor('#0099ff')
             .addFields(
