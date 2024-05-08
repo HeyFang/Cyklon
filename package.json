@@ -9,10 +9,13 @@
   "author": "heyfang",
   "license": "ISC",
   "keywords": [],
-  "dependencies": {
-    "discord.js": "^14.14.1"
-  },
   "devDependencies": {
     "eslint": "^9.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "minecraft-server-util": "^5.4.4",
+    "mineflayer": "^4.20.1",
+    "varint": "^6.0.0"
   }
 }

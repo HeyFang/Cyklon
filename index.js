@@ -1,7 +1,9 @@
 const fs = require('node:fs');
 const path = require('node:path');
-const { Client, Collection, GatewayIntentBits } = require('discord.js');
+const { Client, Collection, GatewayIntentBits, MessageEmbed } = require('discord.js');
 const { token } = require('./config.json');
+//const mineflayer = require('mineflayer');
+const util = require('minecraft-server-util');
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
@@ -35,5 +37,28 @@ for (const file of eventFiles) {
 		client.on(event.name, (...args) => event.execute(...args));
 	}
 }
+// mineflayer stats
+// const bot = mineflayer.createBot({
+// 	host: '34.131.215.0', // Replace with your server's IP address or domain name
+// 	port: 25565, // Replace with your server's port if it's not the default Minecraft port
+// 	username: 'melonyFeng', // Replace with your bot's username
+// 	password: 'melonyFeng', // Replace with your bot's password if the server requires authentication
+//   });
+  
+//   bot.on('chat', (username, message) => {
+//     console.log(`${username}: ${message}`);
+
+//     console.log('Active players:');
+//     for (const playerName in bot.players) {
+//        console.log(playerName);
+//     }
+// });
+
+
+
+
+// setInterval(() => {
+//     bot.chat('Keeping connection alive');
+// }, 60000);
 
 client.login(token);
