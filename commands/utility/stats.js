@@ -43,7 +43,6 @@ module.exports = {
                 .setColor('#1dceff')
                 .addFields(
                     {name: 'IP', value: "`" + serverIp + "`", inline: true},
-                    {name: '\u200B', value: '\u200B', inline: true},
                     {name: 'Version' , value: "`" + `${data.version.name}` + "`", inline: true},
                     {name: `Players online: ${playerCount}`,  value: "`" + `${playerNames}` + "`", inline: false}
                 )
@@ -72,7 +71,6 @@ setInterval(async () => {
             .setColor('#1dceff')
             .addFields(
                 {name: 'IP', value: "`" + serverIp + "`", inline: true},
-                {name: '\u200B', value: '\u200B', inline: true},
                 {name: 'Version' , value: "`" + `${data.version.name}` + "`", inline: true},
                 {name: `Players online: ${newPlayerCount}`, value: "`" + `${newPlayerNames}` + "`"}
             )
