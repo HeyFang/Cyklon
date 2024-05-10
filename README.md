@@ -11,6 +11,7 @@ Currently it has /status command which displays stats with an embed:
     "clientId": "bot-client-id",
     "guildId": "discord-server-id",
     "serverIp": "server-ip"
-}```
+}
+```
 3. run `node deploy-commands.js`
 4. run `nodemon run index.js`
