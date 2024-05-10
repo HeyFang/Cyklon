@@ -1,6 +1,6 @@
 # Discord bot to display minecraft server stats.
 
-Currently it has /status command which displays stats with an embed:
+Currently it has /status command which displays live-stats(updates after every 30sec) with an embed:
 
 <br>
 <img src="./embed.png" width="300">
