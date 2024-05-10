@@ -1,7 +1,9 @@
 # Discord bot to display minecraft server stats.
 
 Currently it has /status command which displays stats with an embed:
-![embed](./embed.png width="400")
+
+<br>
+<img src="./embed.png" width="300">
 
 
 ## To run it:
