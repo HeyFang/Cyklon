@@ -1,8 +1,0 @@
-{
-    "token": "YOUR_BOT_TOKEN",
-    "clientId": "YOUR_BOT_CLIENT_ID",
-    "guildId": "762866554864926730",
-    "serverIp": "YOUR_MINECRAFT_SERVER_IP",
-    "port": "PORT",
-    "allowedUsers": ["927861412070584391", "643651318522839050", "user3_id"]
-}
