@@ -1,4 +1,5 @@
 # Minecraft Server Stats Discord Bot
+## Any contributions or suggestions are welcomed :>
 Keep your server community informed! This Discord bot automatically displays live statistics about your Minecraft server in a user-friendly embed format. It updates every 30 seconds, ensuring everyone has the latest information at their fingertips.
 
 ## Features:
