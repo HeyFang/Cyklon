@@ -7,9 +7,8 @@ Keep your server community informed! This Discord bot automatically displays liv
 <br>
 <img src="./embed.png" width="350">
 <br>
-2.Customizable Embed (Optional): Tailor the embed's appearance (colors, title, etc.) to match your server's theme (refer to Discord's documentation for details).
+2. Customizable Embed (Optional): Tailor the embed's appearance (colors, title, etc.) to match your server's theme (refer to Discord's documentation for details).
 Getting Started:
-
 3. Prerequisites: Ensure you have Node.js and npm (or yarn) installed on your system (download from https://nodejs.org/en).
    
 
@@ -32,8 +31,8 @@ Create a file named `config.json` in the project directory and add the following
 - Your guild ID is your Discord server's unique identifier (find it in server settings).
 
 ## Run the Bot:
-use `node deploy-commands.js` to register commands.
-Use `nodemon run index.js` to start the bot with automatic restarting on code changes.
+- use `node deploy-commands.js` to register commands.
+- Use `nodemon run index.js` to start the bot with automatic restarting on code changes.
 
 ## Using the Bot:
 
