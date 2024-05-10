@@ -11,7 +11,7 @@ Currently it has /status command which displays stats with an embed:
     "token": "bot-token",
     "clientId": "bot-client-id",
     "guildId": "discord-server-id",
-    "serverIp": "server-ip"
+    "serverIp": "minecraft-server-ip"
 }
 ```
 3. run `node deploy-commands.js`
