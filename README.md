@@ -1,21 +1,40 @@
-# Discord bot to display minecraft server stats.
+# Minecraft Server Stats Discord Bot
+Keep your server community informed! This Discord bot automatically displays live statistics about your Minecraft server in a user-friendly embed format. It updates every 30 seconds, ensuring everyone has the latest information at their fingertips.
 
-Currently it has /status command which displays live-stats(updates after every 30sec) with an embed:
+## Features:
 
+1. Live Server Stats: Stay updated on key metrics like the number of players online, their names, version and server status.
 <br>
-<img src="./embed.png" width="300">
+<img src="./embed.png" width="350">
+<br>
+2.Customizable Embed (Optional): Tailor the embed's appearance (colors, title, etc.) to match your server's theme (refer to Discord's documentation for details).
+Getting Started:
 
+3. Prerequisites: Ensure you have Node.js and npm (or yarn) installed on your system (download from https://nodejs.org/en).
+   
 
-## To run it:
-1. Install all dependencies with `npm install` command.
-2. Create a `config.json` file and declare following keys:
+## Set Up the Bot:
+
+1. Clone this repository.
+2. Install dependencies with `npm install` (or yarn install).
+3. Configure the Bot:
+
+Create a file named `config.json` in the project directory and add the following keys, replacing placeholders with your actual information:
 ```json
 {
-    "token": "bot-token",
-    "clientId": "bot-client-id",
-    "guildId": "discord-server-id",
-    "serverIp": "minecraft-server-ip"
+    "token": "YOUR_BOT_TOKEN",
+    "clientId": "YOUR_BOT_CLIENT_ID",
+    "guildId": "YOUR_DISCORD_SERVER_ID",
+    "serverIp": "YOUR_MINECRAFT_SERVER_IP"
 }
 ```
-3. run `node deploy-commands.js`
-4. run `nodemon run index.js`
+- You can obtain your bot token and client ID from the Discord Developer Portal: https://discord.com/developers/docs/intro.
+- Your guild ID is your Discord server's unique identifier (find it in server settings).
+
+## Run the Bot:
+use `node deploy-commands.js` to register commands.
+Use `nodemon run index.js` to start the bot with automatic restarting on code changes.
+
+## Using the Bot:
+
+Once the bot is running in your server, users can simply type the `/status` command to view the live server statistics embed.
