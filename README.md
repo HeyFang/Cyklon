@@ -18,13 +18,15 @@ Keep your server community informed! This Discord bot automatically displays liv
 2. Install dependencies with `npm install` (or yarn install).
 3. Configure the Bot:
 
-Go to `config.json` in the project directory and replace the following keys with your actual information:
+Rename `config.example.json` to `config.json` in the project directory and replace the following keys with your actual information:
 ```json
 {
     "token": "YOUR_BOT_TOKEN",
     "clientId": "YOUR_BOT_CLIENT_ID",
     "guildId": "YOUR_DISCORD_SERVER_ID",
-    "serverIp": "YOUR_MINECRAFT_SERVER_IP"
+    "serverIp": "YOUR_MINECRAFT_SERVER_IP",
+    "port": "PORT",
+    "allowedUsers": ["USER1_ID", "USER2_ID", "USER3_ID"]
 }
 ```
 - You can obtain your bot token and client ID from the Discord Developer Portal: https://discord.com/developers/docs/intro.
