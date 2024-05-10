@@ -18,7 +18,7 @@ Keep your server community informed! This Discord bot automatically displays liv
 2. Install dependencies with `npm install` (or yarn install).
 3. Configure the Bot:
 
-Create a file named `config.json` in the project directory and add the following keys, replacing placeholders with your actual information:
+Go to `config.json` in the project directory and replace the following keys with your actual information:
 ```json
 {
     "token": "YOUR_BOT_TOKEN",
