@@ -2,10 +2,8 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const util = require('minecraft-server-util');
 const { EmbedBuilder } = require('discord.js');
-const { serverIp } = require('../../config.json');
+const { serverIp, allowedUsers, port } = require('../../config.json');
 const { getStatus } = require("./getStatus.js");
-const port = 25565;
-const allowedUsers = ['927861412070584391', '643651318522839050', 'user3_id'];
 
 module.exports = {
     data: new SlashCommandBuilder()
