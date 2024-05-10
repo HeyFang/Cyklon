@@ -4,5 +4,5 @@
     "guildId": "YOUR_DISCORD_SERVER_ID",
     "serverIp": "YOUR_MINECRAFT_SERVER_IP",
     "port": "25565",
-    "allowedUsers": ["927861412070584391", "643651318522839050", "user3_id"]
+    "allowedUsers": ["user1_id", "user2_id", "user3_id"]
 }
