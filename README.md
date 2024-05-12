@@ -8,7 +8,7 @@ Keep your server community informed! This Discord bot automatically displays liv
 <br>
 <img src="./embed.png" width="300">
 <br>
-2. Todo-list: Add a todo list using `/task_add` command.
+2. Todo-list: Users can add and manage tasks with an interactive to-do list using the /task_add command and completion buttons.
 <br>
 <img src="./todo.png" width="300">
 <br>
