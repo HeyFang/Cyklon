@@ -6,10 +6,14 @@ Keep your server community informed! This Discord bot automatically displays liv
 
 1. Live Server Stats: Stay updated on key metrics like the number of players online, their names, version and server status.
 <br>
-<img src="./embed.png" width="350">
+<img src="./embed.png" width="300">
 <br>
-2. Customizable Embed (Optional): Tailor the embed's appearance (colors, title, etc.) to match your server's theme (refer to Discord's documentation for details).<br>
-3. Prerequisites: Ensure you have Node.js and npm (or yarn) installed on your system (download from https://nodejs.org/en).
+2. Todo-list: Add a todo list using `/task_add` command.
+<br>
+<img src="./todo.png" width="300">
+<br>
+4. Customizable Embed (Optional): Tailor the embed's appearance (colors, title, etc.) to match your server's theme (refer to Discord's documentation for details).<br>
+5. Prerequisites: Ensure you have Node.js and npm (or yarn) installed on your system (download from https://nodejs.org/en).
    
 
 ## Set Up the Bot:
