@@ -1,2 +1,3 @@
 - [ ] Bot activity
 - [ ] Server commands like kick, whitelist, etc.
+- [ ] Embeded todo list command.
