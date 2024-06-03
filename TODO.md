@@ -1,3 +1,3 @@
-- [ ] Bot activity
-- [ ] Server commands like kick, whitelist, etc.
+- [x] Bot activity
+- [ ] Whitelisting setup: cmds to check if player is wled, wl player or remove player from wl through discord.
 - [ ] Embeded todo list command.
