@@ -16,6 +16,7 @@
     "discord.js": "^14.14.1",
     "minecraft-server-util": "^5.4.4",
     "mineflayer": "^4.20.1",
+    "tail-stream": "^0.3.4",
     "varint": "^6.0.0"
   }
 }

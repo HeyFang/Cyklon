@@ -37,7 +37,7 @@ module.exports = {
                 .setURL('https://discord.gg/PxsSPYK6hy')
                 .setDescription("Server is currently: `" + `${serverStatus}` + "`")
                 .setAuthor({ name: 'Cyclones Gaming Community', iconURL: 'https://images.emojiterra.com/google/noto-emoji/unicode-15.1/color/1024px/1f300.png', url: 'https://github.com/Fangify' })
-                .setThumbnail('https://yt3.googleusercontent.com/ytc/AIdro_liw7VcUK8TEHJPuzYFHhpyMIpMh9pxXUJ9IsFfVLoY2m0=s900-c-k-c0x00ffffff-no-rj')
+                .setThumbnail('https://raw.githubusercontent.com/HeyFang/echoFang/main/embed.png')
                 .setColor('#1dceff')
                 .addFields(
                     {name: 'IP', value: "`" + serverIp + "`", inline: true},
@@ -65,7 +65,7 @@ setInterval(async () => {
             .setURL('https://discord.gg/PxsSPYK6hy')
             .setDescription("Server is currently: `" + `${serverStatus}` + "`")
             .setAuthor({ name: 'Cyclones Gaming Community', iconURL: 'https://images.emojiterra.com/google/noto-emoji/unicode-15.1/color/1024px/1f300.png', url: 'https://github.com/Fangify' })
-            .setThumbnail('https://yt3.googleusercontent.com/ytc/AIdro_liw7VcUK8TEHJPuzYFHhpyMIpMh9pxXUJ9IsFfVLoY2m0=s900-c-k-c0x00ffffff-no-rj')
+            .setThumbnail('https://raw.githubusercontent.com/HeyFang/echoFang/main/embed.png')
             .setColor('#1dceff')
             .addFields(
                 {name: 'IP', value: "`" + serverIp + "`", inline: true},

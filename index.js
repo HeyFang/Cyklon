@@ -61,4 +61,7 @@ for (const file of eventFiles) {
 //     bot.chat('Keeping connection alive');
 // }, 60000);
 
+
+
+
 client.login(token);
