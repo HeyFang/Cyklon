@@ -16,7 +16,9 @@
     "discord.js": "^14.14.1",
     "minecraft-server-util": "^5.4.4",
     "mineflayer": "^4.20.1",
+    "node-fetch": "^3.3.2",
     "tail-stream": "^0.3.4",
+    "uuid": "^11.0.2",
     "varint": "^6.0.0"
   }
 }

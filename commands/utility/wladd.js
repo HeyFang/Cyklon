@@ -1,7 +1,6 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const { EmbedBuilder } = require('discord.js');
-const fs = require('fs').promises;
-const { allowedRole } = require('../../config.json');
+const { allowedRole, targetChannelId } = require('../../config.json');
 
 module.exports = {
     data: new SlashCommandBuilder()
@@ -12,37 +11,31 @@ module.exports = {
                 .setDescription('The name of the player to add')
                 .setRequired(true)),
     async execute(interaction) {
-
         if (!allowedRole.some(role => interaction.member.roles.cache.has(role))) {
             return interaction.reply({ content: 'You are not allowed to use this command.', ephemeral: true });
         }
         // Respond immediately with a "Processing..." message
         await interaction.deferReply();
-
+        
         const playerName = interaction.options.getString('player');
-
         try {
-            // Read the whitelist.json file
-            const data = await fs.readFile('../minecraft/whitelist.json', 'utf8');
-
-            // Parse the JSON data
-            const whitelist = JSON.parse(data);
+            const targetChannel = await interaction.client.channels.fetch(targetChannelId);
             
-
-            // Add the new player to the whitelist
-            whitelist.push({ uuid: '', name: playerName });
-
-            // Write the updated whitelist back to the file
-            await fs.writeFile('../minecraft/whitelist.json', JSON.stringify(whitelist, null, 2));
-
-            const embed = new EmbedBuilder()
-                .setDescription(`:white_check_mark: ${playerName} has been added to the whitelist.`)
-                .setColor('#0099ff');
-
-            await interaction.editReply({ embeds: [embed] });
+            if (targetChannel) {
+                await targetChannel.send(`whitelist add ${playerName}`);
+                
+                const embed = new EmbedBuilder()
+                    .setDescription(`:white_check_mark: **${playerName}** has been added to the whitelist.`)
+                    .setColor('#0099ff');
+                await interaction.editReply({ embeds: [embed] });
+             
+            } else {
+                console.error('Target channel not found.');
+                await interaction.editReply('Failed to find the target channel.');
+            }
         } catch (error) {
             console.error(error);
-            await interaction.editReply('Failed to update whitelist.');
+            await interaction.editReply('Failed to send the whitelist command.');
         }
     },
 };
