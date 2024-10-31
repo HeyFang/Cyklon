@@ -44,8 +44,8 @@ module.exports = {
             .setTitle('<:crownbs:809042950360137778> Omega Trio Tourny Matchups <:crownbs:809042950360137778>')
             .setColor('#0099ff')
             .addFields(
-                { name: 'Participated Teams', value: teams.join(', ') },
-                { name: 'ROUND 1', value: groupedTeams.join('\n\n') }
+                { name: 'Qualified Teams', value: teams.join(', ') },
+                { name: 'ROUND 2', value: groupedTeams.join('\n\n') }
             );
 
         // Reply with the embed
