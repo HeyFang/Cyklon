@@ -15,7 +15,7 @@ Keep your server community informed! This Discord bot automatically displays liv
 <br>
 3. MatchMaking: Command for random 1v1 pair-ups from given options.
 <br>
-<img src="./matchings.png" width="300">
+<img src="./matching.png" width="300">
 <br>
 <img src="./todo.png" width="300">
 <br>
