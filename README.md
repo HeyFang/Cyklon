@@ -17,6 +17,10 @@ Keep your server community informed! This Discord bot automatically displays liv
 <br>
 <img src="./matching.png" width="300">
 <br>
+3.Whitelist: whitelisting players in SMP through bot(linked with discord srv).
+<br>
+<img src="./whitelist.png" width="300">
+<br>
 
 5. Other trivial commands like /thank, /erase, /setactivity(to change bot activity through commad), etc.<br>
 6. Prerequisites: Ensure you have Node.js and npm (or yarn) installed on your system (download from https://nodejs.org/en
