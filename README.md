@@ -23,11 +23,11 @@ Keep your server community informed! This Discord bot automatically displays liv
 <br>
 
 5. Other trivial commands like /thank, /erase, /setactivity(to change bot activity through commad), etc.<br>
-6. Prerequisites: Ensure you have Node.js and npm (or yarn) installed on your system (download from https://nodejs.org/en
+
 
    
 ## Set Up the Bot:
-
+Ensure you have Node.js and npm (or yarn) installed on your system (download from https://nodejs.org/en)
 1. Clone this repository.
 2. Install dependencies with `npm install` (or yarn install).
 3. Configure the Bot:
