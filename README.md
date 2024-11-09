@@ -1,4 +1,4 @@
-# Minecraft Server Stats Discord Bot
+![image](https://github.com/user-attachments/assets/18591265-ef78-41a1-b320-f845b94d16d5)# Minecraft Server Stats Discord Bot
 ## Any contributions or suggestions are welcomed :>
 View TODO.md to check out what stupid things are bonkin my head atm >.< <br> 
 Keep your server community informed! This Discord bot automatically displays live statistics about your Minecraft server in a user-friendly embed format. It updates every 30 seconds, ensuring everyone has the latest information at their fingertips.
@@ -13,8 +13,14 @@ Keep your server community informed! This Discord bot automatically displays liv
 <br>
 <img src="./todo.png" width="300">
 <br>
-4. Other trivial commands like /thank, /erase, /setactivity(to change bot activity through commad), etc.<br>
-5. Prerequisites: Ensure you have Node.js and npm (or yarn) installed on your system (download from https://nodejs.org/en
+3. MatchMaking: Command for random 1v1 pair-ups from given options.
+<br>
+<img src="./matchings.png" width="300">
+<br>
+<img src="./todo.png" width="300">
+<br>
+5. Other trivial commands like /thank, /erase, /setactivity(to change bot activity through commad), etc.<br>
+6. Prerequisites: Ensure you have Node.js and npm (or yarn) installed on your system (download from https://nodejs.org/en
 
    
 ## Set Up the Bot:
