@@ -5,5 +5,6 @@
     "serverIp": "YOUR_MINECRAFT_SERVER_IP",
     "port": "PORT",
     "allowedUsers": ["USER1_ID", "USER2_ID", "USER3_ID"],
-    "allowedRole": ["1110211800907137034", "1239155520640778382"]
+    "allowedRole": ["role_id1", "role_id2"],
+    "targetChannelId": "DiscordSRV-console-channel-id"
 }
